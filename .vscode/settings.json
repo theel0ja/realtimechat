@@ -1,0 +1,12 @@
+{
+  "eslint.enable": false,
+
+  "files.exclude": {
+    "realtimechat.egg-info/": true
+  },
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.env.windows": {
+      "FLASK_DEBUG": "true",
+      "FLASK_APP": "realtimechat"
+  }
+}
