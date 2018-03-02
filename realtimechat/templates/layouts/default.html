@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}{{config.SITE_NAME}}{% endblock %}</title>
     <!-- <meta name="description" content=""> -->
 
     <!-- <link rel="manifest" href="site.webmanifest">
@@ -26,18 +26,18 @@
     {% block body %}{% endblock %}
 
     <!-- Librariers -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="/static/node_modules/jquery/dist/jquery.min.js"><\/script>');
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha256-5+02zu5UULQkO7w1GIr6vftCgMfFdZcAHeDtFnKZsBs="
-    crossorigin="anonymous"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/popper.min.js" integrity="sha256-6CdFDnYGDh6FNviEF99A9WFKx6g6dCRjWdDQX/roE4k="
-    crossorigin="anonymous"></script> -->
-  <script src="https://theel0ja.github.io/bsmenu-4/bsmenu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script>
+      window.jQuery || document.write('<script src="/static/node_modules/jquery/dist/jquery.min.js"><\/script>');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha256-5+02zu5UULQkO7w1GIr6vftCgMfFdZcAHeDtFnKZsBs="
+      crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/popper.min.js" integrity="sha256-6CdFDnYGDh6FNviEF99A9WFKx6g6dCRjWdDQX/roE4k="
+      crossorigin="anonymous"></script> -->
+    <script src="https://theel0ja.github.io/bsmenu-4/bsmenu.js"></script>
 
-  <script src="/static/js/main.js"></script>
+    <script src="/static/js/main.js"></script>
 
     {% block javascripts %}{% endblock %}
   </body>
