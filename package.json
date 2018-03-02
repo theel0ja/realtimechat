@@ -1,0 +1,27 @@
+{
+  "name": "realtimechat",
+  "private": true,
+  "description": "Realtime chat made with Python.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theel0ja/realtimechat.git"
+  },
+  "keywords": [
+    "flask",
+    "python"
+  ],
+  "author": "Elias Ojala",
+  "bugs": {
+    "url": "https://github.com/theel0ja/realtimechat/issues"
+  },
+  "homepage": "https://github.com/theel0ja/realtimechat#readme"
+}
